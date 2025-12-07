@@ -1,0 +1,4 @@
+# .streamlit/packages.txt
+libgdal-dev
+libproj-dev
+gdal-bin

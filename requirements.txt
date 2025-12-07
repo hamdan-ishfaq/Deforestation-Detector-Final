@@ -1,0 +1,13 @@
+# requirements.txt
+streamlit
+numpy
+scipy
+tifffile
+rasterio
+pillow
+opencv-python
+
+# CRITICAL FIX: Forces installation from PyTorch CPU index using a compatible version (Python 3.10)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.2
+torchvision==0.16.2
